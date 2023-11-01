@@ -19,12 +19,6 @@
             <artifactId>karate-core</artifactId>
             <version>1.3.0</version>
         </dependency>
-        <dependency>
-            <groupId>com.intuit.karate</groupId>
-            <artifactId>karate-junit5</artifactId>
-            <version>1.3.0</version>
-            <scope>test</scope>
-        </dependency>
     </dependencies>
 
     <build>

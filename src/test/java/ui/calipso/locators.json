@@ -1,0 +1,22 @@
+{
+  "mainPage": {
+    "enter": "{span}Войти",
+    "authAllert": "//div[@class='notice__detail']",
+    "registrAllert": "//div[contains(@class, 'notice--link')]"
+  },
+  "authPopUp": {
+    "userLogin": "#USER_LOGIN_POPUP",
+    "userPass": "#USER_PASSWORD_POPUP",
+    "getInButton": "//input[@name='Login']",
+    "regButton": "{a}Регистрация"
+  },
+  "regPage": {
+    "name": "//input[@id='input_NAME']",
+    "email": "//input[@id='input_EMAIL']",
+    "phone": "//input[@id='input_PERSONAL_PHONE']",
+    "pass": "//input[@id='input_PASSWORD']",
+    "confirm": "//input[@id='input_CONFIRM_PASSWORD']",
+    "licence": "#licenses_register",
+    "registr": "{button}Зарегистрироваться"
+  }
+}
